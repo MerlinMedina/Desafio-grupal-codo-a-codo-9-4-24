@@ -82,13 +82,13 @@
     <div class="texto">
         <ul>
             <li><a href="#platos-dulces">Platos dulces</a></li>
-            <li><a href="#platos-salados">Platos salados</a></li>
+            <li><a href="#platos-salados" id="platos-dulces">Platos salados</a></li> <!-- El id se puso acá para no tapar el texto con el nav -->
             <li><a href="#saludables">Mas saludables</a></li>
             <li><a href="#vege-y-vega">Vegetarianismo y veganismo</a></li>
         </ul>
     </div>
 
-    <div class="contenedor-recetas ms-3 me-3" id="platos-dulces">
+    <div class="contenedor-recetas ms-3 me-3">
         <h2> <img src="imagenes/cake.png" alt="Logo" class="d-inline-block">Platos Dulces</h2>
         <article>
             <h3>Budín de pan</h3>
@@ -135,7 +135,7 @@
                 su
                 casa y resultó tan rica que se hizo muy popular.
 
-                Está hecha con capas de galletas de chocolate y entre capa y capa tiene una mezcla de un queso
+                Está hecha con capas de galletas de chocolate y entre capa y capa tiene una mezcla de un queso <span id="platos-salados"></span><!-- El id se puso acá para no tapar el texto con el nav -->
                 “estilo
                 Philadelphia” y dulce de leche. Si no te gusta el dulce de leche, porque te parece muy empalagoso,
                 anímate con la Chocotorta. El queso corta el dulce extremo y el sabor es muy interesante.
@@ -143,7 +143,7 @@
         </article>
     </div>
 
-    <div class="contenedor-recetas ms-3 me-3" id="platos-salados">
+    <div class="contenedor-recetas ms-3 me-3">
 
         <h2> <img src="imagenes/comida.png" alt="Logo" class="d-inline-block">Platos Salados</h2>
 
@@ -182,9 +182,9 @@
         </article>
         <article>
             <h3>Pizza</h3>
-            <p>
+            <p >
                 Por la influencia italiana los argentinos adaptaron algunos platos de su cultura y la pizza no es la
-                excepción. La pizza argentina no se parece en nada a la italiana, pues esta tiene una corteza gruesa
+                excepción. <span id="saludables"></span><!-- El id se puso acá para no tapar el texto con el nav -->La pizza argentina no se parece en nada a la italiana, pues esta tiene una corteza gruesa
                 por
                 lo que lleva más levadura, salsa de tomate, queso mozzarella e ingredientes muy variados como
                 cebolla,
@@ -192,7 +192,7 @@
             </p>
         </article>
     </div>
-    <div class="contenedor-recetas ms-3 me-3" id="saludables">
+    <div class="contenedor-recetas ms-3 me-3">
         <h2 class="d-inline-block">Mas saludables</h2>
         <article>
             <p>
@@ -205,7 +205,7 @@
                     procesados.
                 </li>
                 <li>Moderá el consumo de los alimentos procesados y evitá el consumo de productos ultraprocesados.</li>
-                <li>Consumir mas legumbres, cereales y tuberculos</li>
+                <li id="vege-y-vega"><!-- El id se puso acá para no tapar el texto con el nav -->Consumir mas legumbres, cereales y tuberculos</li>
                 <li>Proteinas animales magras y proteinas vegetales</li>
                 <li>Grasas saludales</li>
             </ul>
@@ -213,7 +213,7 @@
         </article>
     </div>
 
-    <div class="contenedor-recetas ms-3 me-3" id="vege-y-vega">
+    <div class="contenedor-recetas ms-3 me-3">
         <h2 class="d-inline-block">Vegetarianismo y veganismo</h2>
         <article>
             <p>Tanto el veganismo como el vegetarianismo son preferencias de alimentación que procuran un mejor
