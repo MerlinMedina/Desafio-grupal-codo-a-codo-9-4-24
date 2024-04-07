@@ -1,0 +1,184 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("imagenes/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0;
+    color: #312017;
+    overflow-x: hidden;
+
+}
+
+#logo {
+    border-radius: 5px;
+}
+
+.header {
+    background-color: #ece5ce;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 25px;
+    margin: 10px 10px 0px 10px;
+    font-size: bold;
+    font-size: 1.3rem;
+}
+
+.navbar {
+    /* ex menu */
+    position: sticky;
+    z-index: 100;
+    top: 0px;
+    padding: 1rem;
+    background-color: #e08e79;
+    font-size: larger;
+    text-align: center;
+}
+
+.navbar li {
+    /* ex menu */
+    display: inline-block;
+    margin: 5px;
+}
+
+.navbar a {
+    /* ex menu */
+    text-decoration: none;
+    padding: .6rem;
+    border: 1px solid #e9d6d2;
+    color: #fff;
+    border-radius: 3px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.navbar li a:hover {
+    /* ex menu */
+    background-color: #774f38;
+    color: #fff;
+    border: 1px solid #774f38;
+}
+
+.dropdown-menu {
+    background-color: #e08e79;
+}
+
+.texto {
+    padding: 2rem 2rem 0 2rem;
+    font-family: "Reddit Mono", monospace;
+    font-size: larger;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
+.texto a {
+    color: #774f38;
+}
+
+.chefs {
+    text-align: center;
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+    font-style: normal;
+    font-size: small;
+}
+
+img.foto_chef:hover {
+    transition: all 1s;
+    transform: scale(1.2) translate(0, -8%);
+}
+
+.foto_chef {
+    height: 25vh;
+    border: 1px solid rgb(122, 121, 121);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.titulo h1 {
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: calc(1.45rem + .8vw);
+    ;
+    margin: 20px 20px 0 20px;
+}
+
+.contenedor-recetas,
+.contenedor-novedades,
+footer a {
+    color: #312017;
+}
+
+.footer,
+footer {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+
+footer li {
+    display: inline-block;
+    margin: 5px;
+}
+
+.contenedor-recetas img {
+    width: 4rem;
+}
+
+article {
+    padding: .2rem 1.2rem;
+    font-family: "Reddit Mono", monospace;
+    font-size: larger;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
+h3 {
+    margin: 15px 0;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: #fff;
+}
+
+
+.contenedor-contacto{
+    height: 450px;
+}
+
+
+.contenedor-info,
+.mailto{
+    background-color: #ece5ce;
+    color:#774f38 ;
+    height: 100%;
+    text-decoration: none;
+}
+
+.btn-submit{
+    background-color: #c5e0dc;
+    border:1px solid #a5e0d8;
+    width: 120px;
+    color:#473022;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.btn-submit:hover{
+  background-color: #a5e0d8;
+  border:1px solid #9adfd5;
+}
+
+.form-control:focus{
+    border-color:#ece5ce;
+    box-shadow: 0 0 0 0.2rem #ece5ce;
+    outline: 0 none;
+}
+
+
+@media (max-width: 768px) {
+    .contenedor-contacto{
+        height: auto;
+    }
+  }
