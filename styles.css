@@ -28,7 +28,7 @@ body {
     /* ex menu */
     position: sticky;
     z-index: 100;
-    top: 0px;
+    top: 0vh;
     padding: 1rem;
     background-color: #e08e79;
     font-size: larger;
